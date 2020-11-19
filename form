@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <little>Comment From</little>
+    <style>
+    body{
+    background-color:aquamarine;
+    }
+</style>
+    </head>
+    <body>
+    <img src="img/life/life4.jpg" style ="height :100%"class="img-fluid img-thumbnail">
+    <div class="container">
+  <h2>Comment</h2>
+  <p>You can fill out the form below <code></code> before submitting the form:</p>
+
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember" required>I accept the agreement.
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="col">
+            <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+        </div>
+    </div>
+    <from action = "insert.php" method = "post" id = "CommentFrom">
+            Name:<br>
+            <input type= "text" name = "name" id = "idName" placeholder = "Enter Name"><br>
+            Comment:<br>
+            <textarea rows = "25" cols = "40" name = "comment" id = "idComment" placeholder = "Enter Comment"></textarea><br>
+            Link:<br>
+            <input type = "text" name = "link" id = "idlink" placeholder = "Enter Link"><br><br>
+            <input type = "submit" id = "commentBtn">
+        </from>
+    </body>
+</html>
