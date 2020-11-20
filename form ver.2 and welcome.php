@@ -17,3 +17,6 @@ Age: <input type="text" name="age" /><br>
 </form>
 </body>
 </html>
+
+Welcome <?php echo $_POST["Name"]; ?>.
+You are <?php echo $_POST["Age"]; ?> years old!
